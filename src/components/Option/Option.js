@@ -4,7 +4,7 @@ const Option = ({ option, id }) => {
   console.log(option)
   return (
     <div>
-      <input type="radio" id={option} name="fav_language" value="HTML"></input>
+      <input type="radio" id={option} name='anything' value="HTML"></input>
       <label for={option}>{option}</label>
     </div>
   );

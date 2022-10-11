@@ -12,7 +12,7 @@ const Quiz = () => {
   return (
     <div>
       <h2>Quiz part</h2>
-      <div className="grid grid-cols-1">
+      <div className="md:grid grid-cols-1">
         {questions.map((singleQuestion) => (
           <Question
             key={singleQuestion.id}

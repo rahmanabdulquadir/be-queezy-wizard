@@ -11,7 +11,7 @@ const Question = ({ singleQuestion, data }) => {
     <div>
       <div className="border border-black mb-12 shadow-md shadow-gray-300">
         <h2 className="text-emerald-800 font-bold">{question}</h2>
-        <div className="grid grid-cols-2">
+        <div className="md:grid grid-cols-2">
           {options.map(option => <Option 
           option={option} id={id}
           ></Option>)}
