@@ -8,7 +8,7 @@ const Navbar = () => {
         <h2 className="text-4xl cursor-pointer">BeQueezyWizard</h2>
       </div>
       <div>
-        <Link className="mx-4 text-lg" to={"/"}>
+        <Link className="mx-4 text-lg" to={"/topics"}>
           Topics
         </Link>
         <Link className="mx-4 text-lg" to={"/statistics"}>Statistics</Link>
