@@ -13,7 +13,8 @@ function App() {
       children: [
         {
           path:'/',
-          element:<Topics></Topics>
+          element:<Topics></Topics>,
+          loader: () => fetch(' https://openapi.programming-hero.com/api/quiz')
         },
         {
           path: '/statistics',
@@ -24,6 +25,10 @@ function App() {
           element: <Blog></Blog>
         }
       ]
+    },
+    {
+      path: '*',
+      element: <div>Opps!! you entered in a wrong page</div>
     }
   ])
   return (
