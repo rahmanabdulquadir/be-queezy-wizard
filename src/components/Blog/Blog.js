@@ -5,7 +5,7 @@ const Blog = () => {
     <div>
       <h1 className="text-4xl font-bold mt-20">Read Our Blog To Know More</h1>
       <div className="md:grid grid-cols-3 gap-4 mx-auto mt-24 w-4/5">
-        <div className="rounded shadow-md shadow-gray-300 p-2">
+        <div className="rounded shadow-md bg-gradient-to-r from-slate-200 to-white shadow-emerald-300 p-4">
           <h2 className="text-2xl font-bold">What is the purpose of React Router?</h2>
           <p>
             ReactJS Router is mainly used for developing Single Page Web
@@ -15,7 +15,7 @@ const Blog = () => {
             user will be redirected to that particular route.
           </p>
         </div>
-        <div className="rounded shadow-md shadow-gray-300 p-2">
+        <div className="rounded shadow-md bg-gradient-to-r from-slate-200 to-white shadow-emerald-300 p-4">
           <h2 className="text-2xl font-bold">How does Context API works?</h2>
           <p>
             The React Context API is a way for a React app to effectively
@@ -25,7 +25,7 @@ const Blog = () => {
             lighter approach to state management using Redux.
           </p>
         </div>
-        <div className="rounded shadow-md shadow-gray-300 p-2">
+        <div className="rounded shadow-md bg-gradient-to-r from-slate-200 to-white shadow-emerald-300 p-4">
           <h2 className="text-2xl font-bold">Some Details about useRef Hook.</h2>
           <p>
             The useRef hook is the new addition in React 16.8. Before proceeding

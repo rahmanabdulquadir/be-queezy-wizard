@@ -19,6 +19,7 @@ const Chart = ({ data }) => {
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip></Tooltip>
+        <ResponsiveContainer></ResponsiveContainer>
       </LineChart>
     </div>
   );
